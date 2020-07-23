@@ -2,6 +2,13 @@
 
 <br >
 
+---
+
+https://biwashi.github.io/slides/
+
+---
+
+
 # Just do this...
 
 If you have ruby and reveal-ck, you just do this script in your repository whihch you want to make slide in.
