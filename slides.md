@@ -1,3 +1,13 @@
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+ tex2jax: {
+ inlineMath: [["\\(","\\)"] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+ }
+ });
+</script>
+
 ### WIVERN
 
 A New Satellite Concept
@@ -36,7 +46,6 @@ In-Cloud Winds, Precipitation, and Cloud Properties
 
 # **重要**
 
----
 
 ***
 
@@ -101,3 +110,33 @@ WIVERNに搭載された**94GHzレーダー**からの追加の風観測を天�
 ### 死者は 43 人
 
 ***
+
+### WIVERNの感度は
+### CloudSatと比較して向上
+
+- 地上へのスラントパスが短く
+    （約650km vs CloudSatの約710km）
+- アンテナが大きく
+    （WIVERNは1.8m × 2.9m vs CloudSatの円形1.85m）
+
+
+![w](https://i.gyazo.com/61b609f64bb48a12a9fff7e224720129.png)
+
+---
+
+Earth Cloud Aerosol and Radiation Explorer (EarthCARE)衛星
+
+***
+
+## 従来のパルスペア技術
+
+---
+
+わずか$$6ms^{-1}$$ のフォールディング速度とパルスペアエコーの位相の相関性が低い
+__ノイズの多いドップラー推定__
+
+***
+
+# WIVERN
+偏波ダイバーシティパルスペア（PDPP）技術
+を用いたドップラー速度推定
